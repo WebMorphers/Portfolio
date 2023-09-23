@@ -2,15 +2,15 @@
     display: flex;
     gap: 2 0%; 
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 1% ;
     align-items: center;
- background-color: aliceblue;
+    background-color: aliceblue;
 }
 .navlinkitem{
     text-decoration: none;
     color: black; 
-    margin: 1rem;
+    margin:1rem;
     cursor: pointer;
 }
 
@@ -22,6 +22,8 @@
     flex-direction:row;
     align-items: center;
     justify-content: space-between;
+    font-size:larger ;
+
 }
 .contactButton {
     background: #7079f0;
@@ -67,6 +69,6 @@
     box-shadow: 0.05em 0.05em #5566c2;
   }
 .logo{
-    width :5vw;
-    height: auto;
+    width :3vw; 
+    height: auto; 
 }
