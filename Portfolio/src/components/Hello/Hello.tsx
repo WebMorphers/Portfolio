@@ -15,6 +15,7 @@ const Hello = () => {
         <img className='image' src={image} alt="" />
 
       </div> */}
+      
     </div>
   )
 }

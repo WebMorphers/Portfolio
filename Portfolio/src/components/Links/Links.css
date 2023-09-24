@@ -1,5 +1,13 @@
+.cont{
+    display: flex;
+    flex-direction:row;
+    gap: 20%;
+    justify-content:center;
+
+}
 svg{
     color: rgba(0, 0, 0, 0.376);
+     
 }
 svg:hover{
 color: black;
