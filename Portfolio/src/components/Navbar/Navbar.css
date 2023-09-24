@@ -1,21 +1,24 @@
-.container{
-    display: flex;
-    gap: 2 0%; 
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 1% ;
-    align-items: center;
-    background-color: aliceblue;
+.navbar{
+  height: 5rem;
+  width: 100vw; 
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  background-color: #ECD6B5;
+  border-bottom: 1px solid black;
 }
 .navlinkitem{
     text-decoration: none;
-    color: black; 
     margin:1rem;
     cursor: pointer;
 }
 
 .navlinkitem:hover{
-    color:#7079f0 ;
+    color:#D8A04F ;
 }
 .links{
     display: flex;
@@ -26,8 +29,8 @@
 
 }
 .contactButton {
-    background: #7079f0;
-    color: white;
+    background: #D8A04F;
+    color: black !important;
     font-family: inherit;
     padding: 0.45em;
     padding-left: 1.0em;
@@ -38,7 +41,7 @@
     letter-spacing: 0.05em;
     display: flex;
     align-items: center;
-    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    box-shadow: inset 0 0 1.6em -0.6em #e99c30;
     overflow: hidden;
     position: relative;
     height: 2.8em;
@@ -54,21 +57,22 @@
     height: 2.2em;
     width: 2.2em;
     border-radius: 0.7em;
-    box-shadow: 0.1em 0.1em 0.6em 0.2em #7a8cf3;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #D8A04F;
     right: 0.3em;
     transition: all 0.3s;
   }
   
   .contactButton:hover {
     transform: translate(-0.05em, -0.05em);
-    box-shadow: 0.15em 0.15em #5566c2;
+    box-shadow: 0.15em 0.15em #dfac64;
   }
   
   .contactButton:active {
     transform: translate(0.05em, 0.05em);
-    box-shadow: 0.05em 0.05em #5566c2;
+    box-shadow: 0.05em 0.05em #dfac64;
   }
 .logo{
-    width :3vw; 
-    height: auto; 
+object-fit: cover;
+height: 5rem;
+width: 7rem;
 }

@@ -1,5 +1,31 @@
 .container{
-    background-color: white;
-     display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    position: relative;
+}
+.text{
+    flex: 1 0 40%;
+    padding: 0 1rem;
+
+}
+.image{
+    object-fit: cover;
+    height:20rem ;
+    
+}
+.title{
+    font-size :3em;
+    font-weight: bold !important;
+    text-align: center;
+
+}
+.description{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.5rem;
 
 }
