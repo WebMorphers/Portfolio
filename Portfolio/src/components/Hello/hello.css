@@ -1,4 +1,8 @@
-.container{
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Kanit:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+ 
+ 
+  .container{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -18,14 +22,21 @@
     
 }
 .title{
+    
     font-size :3em;
     font-weight: bold !important;
     text-align: center;
 
 }
-.description{
+.description{ 
+    color: #2a2b01;
     text-align: center;
     padding-top: 2rem;
-    font-size: 1.5rem;
+    font-size: 4rem;
+    font-family: 'Kanit', sans-serif;
 
+}
+.span{ 
+    font-family: 'Dela Gothic One', cursive;
+color: #f0ca6a;
 }

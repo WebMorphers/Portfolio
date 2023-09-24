@@ -1,13 +1,19 @@
 import Navbar from "./components/Navbar/Navbar";
 import Hello from "./components/Hello/Hello";
 import Projects from "./components/projects/Projects";
+import Links from "./components/Links/Links";
+import './app.css';
+
 
 function App() {
   return (
-    <div className="app-container">
-      <Navbar />
+    <>
+    <Navbar />
+    <div className="app-container"> 
+    
       <div className="hello-container">
         <Hello />
+        <Links />
       </div>
       <br/>
       <h1 className="title">Our Projects</h1>
@@ -15,6 +21,7 @@ function App() {
         <Projects />
       </div>
     </div>
+    </>
   );
 }
 
