@@ -2,7 +2,7 @@ import "./about.css"
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>About Web Morphers</div>
   )
 }
 

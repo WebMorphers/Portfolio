@@ -1,6 +1,5 @@
 import './hello.css'
-import image from '../../assets/nobg_logo.png'
-
+ 
 const Hello = () => {
   return (
     
