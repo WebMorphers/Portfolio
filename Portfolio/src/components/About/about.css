@@ -1,8 +1,24 @@
-.container{
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+
+.containerr{
     display: flex; 
     flex-direction: row; 
+    gap: 3%;
 }
   
 .pp{
-    max-width: 50%;
+    max-width: 100%;
+}
+.h1p{ 
+  line-height: 1.8; 
+  word-spacing: 2px;
+    font-size: 1.2rem;
+    font-family: 'Roboto Slab', serif;
+   margin-left: 20%;
+}
+.img{
+    margin-right: 15%;
+}
+.highlight{
+    color:rgb(6, 141, 47) ;
 }

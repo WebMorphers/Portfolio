@@ -18,16 +18,11 @@ function App() {
         <br /><br />
         <Links />  
         <div className='icon-scroll'></div>
-      </div>
-      
-      <div className="about-container">
+      </div>    
+    </div>
+    <div className="about-container">
       <About />
       </div> 
-      <br/>
-      <h1 className="title"> </h1>
-      <div  className="projects-container"> 
-      </div>
-    </div>
     </>
   );
 }

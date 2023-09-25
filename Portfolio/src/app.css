@@ -42,6 +42,7 @@
   }
 }
 
-  .about-container{
-    margin-top: 15%;
-  }
+.about-container {
+  background: linear-gradient(to bottom, #ffeed6, #c6d8af);
+  margin-top: 10%;
+}

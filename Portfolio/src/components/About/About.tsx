@@ -3,16 +3,23 @@ import logo from '../../assets/nobg_logo.png'
 
 const About = () => {
   return (
-    <div className="container">
-      <div><h1>About Web Morphers</h1>
-        <p className="pp">We are Web Morphers, a passionate team of front-end developers specializing in ReactJS.
-         We craft visually stunning and highly interactive web experiences,
-          shaping the future of the web one project at a time. 
-          Join us on our journey to transform the digital landscape.</p>
+    <div className="containerr">
+      <div className="h1p"><h1>About Web Morphers</h1>
+      <br />
+      <div>
+  <p className="pp">
+    <span className="highlight">Web Morphers</span>, a budding team of <span className="highlight">ReactJS experts</span>, is redefining web development. Despite our newcomer status, we're driven by <span className="highlight">passion</span> and <span className="highlight">determination</span>. Our mission: to create captivating, interactive web experiences that shape the digital landscape.
+  </p>
+  <br />
+  <p>
+    We embrace <span className="highlight">innovation</span>, constantly evolving to stay at the forefront of <span className="highlight">technology trends</span>. Our <span className="highlight">agility</span> and <span className="highlight">adaptability</span> enable us to exceed expectations and turn ambitious concepts into reality. Join us on this dynamic journey, as we reshape the future of the web.
+  </p>
+</div>
+
       </div>
  
      
-    <div><img src={logo} alt="" /></div>
+    <div className="img"><img src={logo} alt="" /></div>
     
     </div>
   )
