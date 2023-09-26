@@ -8,8 +8,12 @@
   justify-content: space-between;
   align-items: center;
   position: sticky;
+  background: linear-gradient(to bottom,#ECD6B5, #B1B695);
   background-color: #ECD6B5;
   border-bottom: 1px solid black;
+  position: fixed;  
+  top: 0;  
+  z-index: 1000;
 }
 .navlinkitem{
     text-decoration: none;
