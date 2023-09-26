@@ -16,11 +16,15 @@ function App() {
         <Hello />
         <br />
         <br /><br />
-        <Links />  
-        <div className='icon-scroll'></div>
-      </div>    
+        <Links />   
+        <span className="scroll-icon">
+      <span className="scroll-icon__dot"></span> 
+    </span>  
+      </div>     
     </div>
+    
     <div className="about-container">
+      
       <About />
       </div> 
     </>
