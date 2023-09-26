@@ -1,11 +1,10 @@
-.app-container {
-    margin: 0 10%;
-    display: flex;
-    flex-direction: column;
+.hello-container {
+  background: linear-gradient(to bottom,#B1B695 , #A690A4);
+
   }
   
   .icon-scroll,
-.icon-scroll:before {
+.icon-scroll:before { 
   
   left: 50%;
 }
@@ -43,6 +42,6 @@
 }
 
 .about-container {
-  background: linear-gradient(to bottom, #ffeed6, #c6d8af);
-  margin-top: 10%;
+  background: linear-gradient(to bottom, #A690A4, #0D3B66);
+  padding-top: 10%;
 }
