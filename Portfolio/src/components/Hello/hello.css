@@ -37,6 +37,37 @@
 
 }
 .span{ 
-    font-family: 'Dela Gothic One', cursive;
-color: #f0ca6a;
+     font-family: 'Dela Gothic One', cursive;
+    position: relative;
+    font-size: 5rem;
+    Letter-spacing: 15px;
+    color: #fc9700;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    Line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+
+
+}
+@keyframes animate
+{
+    0%,18%,20%,50.1%, 60%, 65.1%, 80%,90.1%,92%
+     {
+         color:#fc9700;
+        text-shadow: none;
+     }
+    18.1%,20.1%, 30%, 50%, 60.1%, 65%, 80.1% ,90%, 92.1%, 100%
+    {   
+        color:#fff;
+        text-shadow: 0 0 10px #fc9700,            
+        0 0 20px #fc9700,           
+        0 0 40px  #fc9700,        
+        0 0 80px #fc9700,   
+        0 0 160px #fc9700;
+                   
+    }
+
 }
