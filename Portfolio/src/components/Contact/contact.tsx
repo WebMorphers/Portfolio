@@ -15,7 +15,7 @@ const contact = () => {
         social media links.
       </p>
       <a href={`mailto:${email}`}>
-        <button>Say HELLO!</button>
+        <button>Contact</button>
       </a>
     </div>
   );

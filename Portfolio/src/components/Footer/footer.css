@@ -1,0 +1,35 @@
+.containerrr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    background-color: #000000;
+    color: white;
+    font-size: 21px;
+}
+.linkat{
+    display: flex;
+    align-items: center;
+    gap: 12%;
+    flex: 0 0 auto;
+    width: 23%;
+
+}
+.adress{
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    justify-content: end;
+    gap: 3%;
+
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    justify-content: center;
+    
+
+}

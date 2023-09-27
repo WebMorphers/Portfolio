@@ -1,4 +1,5 @@
 .navbar {
+ 
   height: 5rem;
   width: 100vw;
   margin: 0 auto;
@@ -6,9 +7,8 @@
   display: flex;
   flex-direction: row; 
   align-items: center;
-  /* position: sticky; */
-  /* background: linear-gradient(to bottom,#ECD6B5, #ecbb71);
-  background-color: #ECD6B5; */
+  justify-content: space-between;
+  position: sticky;
   position: fixed;  
   top: 0;  
   z-index: 1000;
@@ -17,6 +17,7 @@
   transition-duration: .15s;
   background-color: rgba(79,70,229,.1);
   backdrop-filter: blur(10px);
+  padding: 0 4rem;
 }
 
 
@@ -36,7 +37,6 @@
     align-items: center;
     justify-content: space-between;
     font-size:larger ;  
-    margin-right: 40%;
 } 
 .logo{
 object-fit: cover;

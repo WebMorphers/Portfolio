@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Kanit:ital,wght@0,200;0,300;0,400;1,200&display=swap');
 button {
     appearance: button;
-    background-color: #1899D6;
+    background-color: #f06654;
     border: solid transparent;
     border-radius: 16px;
     border-width: 0 0 4px;
@@ -27,11 +27,13 @@ button {
     vertical-align: middle;
     white-space: nowrap; 
     margin: 5%;
+    align-items: center;
+    
    }
    
    button:after {
     background-clip: padding-box;
-    background-color: #1CB0F6;
+    background-color: #e64c38;
     border: solid transparent;
     border-radius: 16px;
     border-width: 0 0 4px;
@@ -82,6 +84,10 @@ button {
  }
    .pcont{
     font-family: 'Kanit', sans-serif;
-    max-width: 40%;
     font-size: 1.5rem;
+    line-height: 1.8; 
+    word-spacing: 2px;
+    padding: 0 12%;
+    align-items: center;
+    justify-content: center;
    }
