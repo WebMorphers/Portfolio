@@ -7,22 +7,29 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
-  background: linear-gradient(to bottom,#ECD6B5, #B1B695);
-  background-color: #ECD6B5;
-  border-bottom: 1px solid black;
+  /* position: sticky; */
+  /* background: linear-gradient(to bottom,#ECD6B5, #ecbb71);
+  background-color: #ECD6B5; */
   position: fixed;  
   top: 0;  
   z-index: 1000;
+  transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .15s;
+  background-color: rgba(79,70,229,.1);
+  backdrop-filter: blur(10px);
 }
+
+
 .navlinkitem{
     text-decoration: none;
     margin:1rem;
     cursor: pointer;
+    font-weight: 100;
 }
 
 .navlinkitem:hover{
-    color:#D8A04F ;
+    color:#e7921b ;
 }
 .links{
     display: flex;

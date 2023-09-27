@@ -1,5 +1,5 @@
 .hello-container {
-  background: linear-gradient(to bottom,#B1B695 , #A690A4);
+  background: linear-gradient(to bottom,#D8A04F , #EFD7B3);
   padding-bottom: 5%;
 
   }
@@ -41,6 +41,6 @@ margin-top: 7%;
 
 .about-container {
   
-  background: linear-gradient(to bottom, #A690A4, #0D3B66);
+  background: linear-gradient(to bottom, #ECD6B5, #E48A25);
   padding-top: 7%;
 }
