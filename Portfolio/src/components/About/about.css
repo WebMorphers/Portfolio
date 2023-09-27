@@ -3,22 +3,41 @@
 .containerr{
     display: flex; 
     flex-direction: row; 
-    gap: 3%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3rem;
+}
+
+.text{
+    text-align: center;
 }
   
+.titre{
+    text-align: center;
+
+}
 .pp{
     max-width: 100%;
+    text-align: center;
 }
 .h1p{ 
   line-height: 1.8; 
   word-spacing: 2px;
     font-size: 1.2rem;
     font-family: 'Roboto Slab', serif;
-   margin-left: 20%;
+    flex: 1 1;
+
 }
 .img{
-    margin-right: 15%;
+    display: flex;
+    align-items: center;
+    flex: 1 1;
+    justify-content: center;
+
+
 }
 .highlight{
-    color:rgb(6, 141, 47) ;
+    font-weight: 600;
+    color: #ec6e06;
 }
