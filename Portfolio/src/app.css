@@ -39,8 +39,12 @@ margin-top: 7%;
   }
   
 
-.about-container {
-  
+.about-container { 
   background: linear-gradient(to bottom, #A690A4, #0D3B66);
   padding-top: 7%;
+}
+.contact-container{
+  background: linear-gradient(to bottom, #0D3B66,#F6E27F );
+  padding-top: 2%;
+
 }
