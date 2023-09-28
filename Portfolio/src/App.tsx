@@ -29,7 +29,8 @@ function App() {
     <div id="about_us" className="about-container">
       <About />
     </div> 
-    <div id="projects" className="projects_container"> 
+    <div id="projects" className="projects_container">
+      <Projects />
     </div> 
     <div id="contact" className="contact-container">
       <Contact />
