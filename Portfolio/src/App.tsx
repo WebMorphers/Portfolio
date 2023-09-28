@@ -24,14 +24,12 @@ function App() {
       </div>     
     </div>
     
-    <div className="about-container">
-      
+    <div id="about_us" className="about-container">
       <About />
-      </div> 
-      <div className="contact-container">
-      
+    </div> 
+    <div id="contact" className="contact-container">
       <Contact />
-      </div> 
+    </div> 
 
       <Footer />
     </>

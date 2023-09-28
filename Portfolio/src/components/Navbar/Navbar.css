@@ -26,9 +26,19 @@
     margin:1rem;
     cursor: pointer;
     font-weight: 100;
+    color: inherit;
+}
+
+.contact{
+    cursor: pointer;
+    font-weight:400;
+    color: inherit;
 }
 
 .navlinkitem:hover{
+    color:#e7921b ;
+}
+.contact:hover{
     color:#e7921b ;
 }
 .links{ 
