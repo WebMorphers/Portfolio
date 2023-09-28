@@ -4,12 +4,11 @@ const Footer = () => {
   return (
       <div className='containerrr'>
         <div className='linkat'>
-          <a href="">
+          <a target="_blank" href="https://www.linkedin.com/company/webmorphers/about/">
             <i className="fa-brands fa-linkedin-in" style={{color:"#ffffff", width:"17px", height:"17px"}}></i>
           </a>
-          <a href="">
+          <a target="_blank" href="https://twitter.com/WebMorphers">
           <i className="fa-brands fa-x-twitter" style={{color:"#ffffff", width:"17px", height:"17px"}}></i>
-
           </a>
 
         </div>
