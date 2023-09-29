@@ -25,7 +25,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="navbar">
+    <div className="navbarr">
       <div>
        
         <a href="#" onClick={() => scrollToSection("hello")}>
