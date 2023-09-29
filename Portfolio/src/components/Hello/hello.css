@@ -11,7 +11,7 @@
 }
 .text{
     flex: 1 0 40%;
-    padding: 0 1rem;
+    padding: 0 4rem;
 
 }
 .image{
@@ -32,11 +32,10 @@
     padding-top: 9rem;
     font-size: 4rem;
     font-family: 'Kanit', sans-serif;
-
+    width: 100%;
 }
 .span{ 
-     font-family: 'Dela Gothic One', cursive;
-    position: relative;
+    font-family: 'Dela Gothic One', cursive;
     font-size: 5rem;
     Letter-spacing: 15px;
     color: #fc9700;
@@ -47,8 +46,6 @@
     Line-height: 0.70em;
     outline: none;
     animation: animate 5s linear infinite;
-
-
 }
 @keyframes animate
 {
