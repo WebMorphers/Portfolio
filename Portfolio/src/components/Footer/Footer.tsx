@@ -1,6 +1,7 @@
 import './footer.css'
 
 const Footer = () => {
+  const email = "WebMorphers@gmail.com";
   return (
       <div className='containerrr'>
         <div className='linkat'>
@@ -17,9 +18,8 @@ const Footer = () => {
         </div>
         <div className='adress'>
           <i className="fa-regular fa-envelope" style={{color:"#ffffff", width:"17px", height:"17px"}}></i>
-          webmorphers@gmail.com
-        </div>
-
+           <a className='maill' href={`mailto:${email}`}>webmorphers@gmail.com</a>
+        </div> 
       </div>
   )
 }
