@@ -1,7 +1,6 @@
 import "./Navbar.css";
 import logo from "../../assets/nobg_logo.png";
-import  { useEffect } from 'react';
-
+import  { useEffect } from 'react'; 
 const Navbar = () => {
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
@@ -28,6 +27,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div>
+       
         <a href="#" onClick={() => scrollToSection("hello")}>
           <img className="logo" src={logo} alt="" />
         </a>

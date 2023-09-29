@@ -1,5 +1,7 @@
 import './footer.css'
 
+
+
 const Footer = () => {
   const email = "WebMorphers@gmail.com";
   return (
@@ -11,7 +13,7 @@ const Footer = () => {
           <a target="_blank" href="https://twitter.com/WebMorphers">
           <i className="fa-brands fa-x-twitter" style={{color:"#ffffff", width:"17px", height:"17px"}}></i>
           </a>
-
+          
         </div>
         <div className='copyright'>
           &copy; Copyright 2023
