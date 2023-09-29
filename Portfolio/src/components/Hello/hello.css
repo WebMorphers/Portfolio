@@ -2,15 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Kanit:ital,wght@0,200;0,300;0,400;1,200&display=swap');
  
  
-  .container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    
-    flex-wrap: wrap;
-    position: relative;
-}
+
 .text{
     flex: 1 0 40%;
     padding: 0 1rem;
