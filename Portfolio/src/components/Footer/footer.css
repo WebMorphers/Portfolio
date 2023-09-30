@@ -15,8 +15,8 @@
     gap: 12%;
     width: 23%;
     justify-content: center;
-
 }
+
 .adress{
     display: flex;
     align-items: center;
@@ -29,11 +29,10 @@
     align-items: center;
     width: 33.33333333%;
     justify-content: center;
-    
-
+}
+.maill{
+    color: inherit;
 }
 .maill:hover{
-    color: rgb(123, 202, 19);
-
-
+    color: rgb(202, 153, 19);
 }
