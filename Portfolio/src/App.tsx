@@ -10,7 +10,7 @@ import "./app.css";
 
 function App() {
   return (
-    <>
+    <div className="cmain">
       <Navbar />
       <div className="app-container">
         <div id="hello" className="hello-container">
@@ -36,7 +36,8 @@ function App() {
       </div>
 
       <Footer />
-    </>
+
+    </div>
   );
 }
 
