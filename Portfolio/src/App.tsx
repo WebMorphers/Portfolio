@@ -18,10 +18,7 @@ function App() {
           <br />
           <br />
           <br /> 
-          <Links />  
-          <h1 className="text-3xl font-bold underline bg-white">
-      Hello world!
-    </h1>
+          <Links />   
           <span className="scroll-icon">
             <span className="scroll-icon__dot"></span>
           </span>
