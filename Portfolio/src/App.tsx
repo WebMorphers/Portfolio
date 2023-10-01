@@ -10,14 +10,18 @@ import "./app.css";
 function App() {
   return (
     <div className="cmain">
+      
       <Navbar />
       <div className="app-container">
         <div id="hello" className="hello-container">
           <Hello />
           <br />
           <br />
-          <br />
-          <Links />
+          <br /> 
+          <Links />  
+          <h1 className="text-3xl font-bold underline bg-white">
+      Hello world!
+    </h1>
           <span className="scroll-icon">
             <span className="scroll-icon__dot"></span>
           </span>
