@@ -18,7 +18,7 @@ function App() {
           <br />
           <br />
           <br /> 
-          <Links />   
+          <Links />    
           <span className="scroll-icon">
             <span className="scroll-icon__dot"></span>
           </span>
