@@ -33,7 +33,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className='z-50 my-0	mx-auto sticky top-0 flex justify-between items-center h-24 max-w-full mx-auto px-10 text-white bg-transparent	backdrop-blur-md'>
+    <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white '>
        <img className=" h-20 w-23" src={logo} alt="" />
       <ul className='hidden md:flex'>
         <li className='p-4'><a
@@ -62,11 +62,11 @@ const Navbar = () => {
         </a></li>
       </ul>
       <div onClick={chang} className='block md:hidden'>
-          {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
+          {nav ? <AiOutlineClose size={20} color={"black"} /> : <AiOutlineMenu size={20} color={"black"} />}
       </div>
-      <ul className={nav ? ' fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-amber-600 ease-in-out duration-500  ' : '  ease-in-out duration-500 fixed left-[-100%] '}>
+      <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-amber-700 ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
       <img className=" h-20 w-23" src={logo} alt="" />
-        <li className='p-4'><a
+        <li className='p-4 '><a
           className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600"
           onClick={() => scrollToSection("about_us")}
           href="#about_us"
@@ -74,14 +74,14 @@ const Navbar = () => {
           ABOUT US
         </a></li>
         <li className='p-4'><a
-          className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600"
+          className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600 "
           onClick={() => scrollToSection("projects")}
           href="#projects"
         >
           OUR PROJECTS
         </a></li>
         <li className='p-4'> <a
-          className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600"
+          className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600 "
           onClick={() => scrollToSection("contact")}
           href="#contact"
         >
