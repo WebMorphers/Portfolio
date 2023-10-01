@@ -1,4 +1,10 @@
- 
+.qsd{
+    z-index: 1000;
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s; 
+    backdrop-filter: blur(10px);
+}
 
 
  

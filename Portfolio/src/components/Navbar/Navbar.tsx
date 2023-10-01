@@ -22,7 +22,7 @@ const Navbar = () => {
     internalLinks.forEach((link) => {
       link.addEventListener("click", (e) => {
         e.preventDefault();
-        const targetId = link.getAttribute("href")?.slice(1); // Use optional chaining
+        const targetId = link.getAttribute("href")?.slice(1); 
         if (targetId) {
           scrollToSection(targetId);
         }
@@ -31,7 +31,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="flex justify-between items-center h-24 max-w-full mx-auto px-10 text-white bg-[rgba(79,70,229,.1)]">
+    <div className="flex justify-between items-center h-24 max-w-full mx-auto px-10 text-white  bg-[rgba(79,70,229,.1)] ">
       <img className=" h-20 w-23" src={logo} alt="" />
       <ul className="hidden md:flex">
         <li className="p-4">
