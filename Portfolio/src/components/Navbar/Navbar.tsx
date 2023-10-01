@@ -46,8 +46,7 @@ const Navbar = () => {
         <li className='p-4'><a
           className="no-underline mx-4 cursor-pointer font-thin text-gray-900 hover:text-orange-600"
           onClick={() => scrollToSection("projects")}
-          href="#projects"
-        >
+          href="#projects">
           OUR PROJECTS
         </a></li>
 
@@ -65,7 +64,7 @@ const Navbar = () => {
       <div onClick={chang} className='block md:hidden'>
           {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
       </div>
-      <ul className={nav ? ' fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#a08f30] ease-in-out duration-500  ' : '  ease-in-out duration-500 fixed left-[-100%] '}>
+      <ul className={nav ? ' fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-amber-600 ease-in-out duration-500  ' : '  ease-in-out duration-500 fixed left-[-100%] '}>
       <img className=" h-20 w-23" src={logo} alt="" />
         <li className='p-4'><a
           className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600"
