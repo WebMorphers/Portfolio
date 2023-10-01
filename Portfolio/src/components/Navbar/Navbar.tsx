@@ -33,7 +33,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className='z-10 sticky top-0 flex justify-between items-center h-24 max-w-full mx-auto px-10 text-white bg-transparent	backdrop-blur-md'>
+    <div className='z-50 sticky top-0 flex justify-between items-center h-24 max-w-full mx-auto px-10 text-white bg-transparent	backdrop-blur-md'>
        <img className=" h-20 w-23" src={logo} alt="" />
       <ul className='hidden md:flex'>
         <li className='p-4'><a
