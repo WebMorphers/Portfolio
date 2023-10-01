@@ -24,11 +24,7 @@ const Navbar = () => {
     internalLinks.forEach((link) => {
       link.addEventListener('click', (e) => {
         e.preventDefault();
-<<<<<<< Updated upstream
-        const targetId = link.getAttribute("href")?.slice(1); 
-=======
         const targetId = link.getAttribute('href')?.slice(1); // Use optional chaining
->>>>>>> Stashed changes
         if (targetId) {
           scrollToSection(targetId);
         }
@@ -37,40 +33,6 @@ const Navbar = () => {
   }, []);
 
   return (
-<<<<<<< Updated upstream
-    <div className="flex justify-between items-center h-24 max-w-full mx-auto px-10 text-white bg-[rgba(79,70,229,.1)]">
-      <img className=" h-20 w-23" src={logo} alt="" />
-      <ul className="hidden md:flex">
-        <li className="p-4">
-          <a
-            className="no-underline mx-4 cursor-pointer font-thin text-gray-900 hover:text-yellow-500"
-            onClick={() => scrollToSection("about_us")}
-            href="#about_us"
-          >
-            ABOUT US
-          </a>
-        </li>
-        <li className="p-4">
-          <a
-            className="no-underline mx-4 cursor-pointer font-thin text-gray-900 hover:text-yellow-500"
-            onClick={() => scrollToSection("projects")}
-            href="#projects"
-          >
-            OUR PROJECTS
-          </a>
-        </li>
-        <li className="p-4">
-          {" "}
-          <a
-            className="no-underline mx-4 cursor-pointer font-thin text-gray-900 hover:text-yellow-500"
-            onClick={() => scrollToSection("contact")}
-            href="#contact"
-          >
-            CONTACT US
-          </a>
-        </li>
-      </ul>
-=======
     <div className='flex justify-between items-center h-24 max-w-full mx-auto px-10 text-white bg-[rgba(70,200,229,0.1)] backdrop-blur-10'>
        <img className=" h-20 w-23" src={logo} alt="" />
       <ul className='hidden md:flex'>
@@ -88,22 +50,15 @@ const Navbar = () => {
         >
           OUR PROJECTS
         </a></li>
-       
-         
-      </ul>
-      <ul className='hidden md:flex'>
-      <li className='p-4'> <a
+        <li className='p-4'> <a
           className="no-underline mx-4 cursor-pointer font-thin text-gray-900 hover:text-yellow-500"
           onClick={() => scrollToSection("contact")}
           href="#contact"
         >
           CONTACT US
         </a></li>
-       
-       </ul>
-
-
->>>>>>> Stashed changes
+         
+      </ul>
       <div onClick={chang} className='block md:hidden'>
           {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
       </div>
