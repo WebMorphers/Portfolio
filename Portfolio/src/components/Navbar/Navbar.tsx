@@ -50,14 +50,17 @@ const Navbar = () => {
         >
           OUR PROJECTS
         </a></li>
-        <li className='p-4'> <a
+
+         
+      </ul>
+      <ul className='hidden md:flex'>
+      <li className='p-4'> <a
           className="no-underline mx-4 cursor-pointer font-thin text-gray-900 hover:text-yellow-500"
           onClick={() => scrollToSection("contact")}
           href="#contact"
         >
           CONTACT US
         </a></li>
-         
       </ul>
       <div onClick={chang} className='block md:hidden'>
           {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
