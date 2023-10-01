@@ -33,18 +33,18 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className='flex justify-between items-center h-24 max-w-full mx-auto px-10 text-white bg-[rgba(70,200,229,0.1)] backdrop-blur-10'>
+    <div className='flex justify-between items-center h-24 max-w-full mx-auto px-10 text-white bg-transparent	backdrop-blur-md'>
        <img className=" h-20 w-23" src={logo} alt="" />
       <ul className='hidden md:flex'>
         <li className='p-4'><a
-          className="no-underline mx-4 cursor-pointer font-thin text-gray-900 hover:text-yellow-500"
+          className="no-underline mx-4 cursor-pointer font-thin text-gray-900 hover:text-orange-600"
           onClick={() => scrollToSection("about_us")}
           href="#about_us"
         >
           ABOUT US
         </a></li>
         <li className='p-4'><a
-          className="no-underline mx-4 cursor-pointer font-thin text-gray-900 hover:text-yellow-500"
+          className="no-underline mx-4 cursor-pointer font-thin text-gray-900 hover:text-orange-600"
           onClick={() => scrollToSection("projects")}
           href="#projects"
         >
@@ -55,7 +55,7 @@ const Navbar = () => {
       </ul>
       <ul className='hidden md:flex'>
       <li className='p-4'> <a
-          className="no-underline mx-4 cursor-pointer font-thin text-gray-900 hover:text-yellow-500"
+          className="no-underline mx-4 cursor-pointer font-thin text-gray-900 hover:text-orange-600"
           onClick={() => scrollToSection("contact")}
           href="#contact"
         >
@@ -68,21 +68,21 @@ const Navbar = () => {
       <ul className={nav ? ' fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#a08f30] ease-in-out duration-500  ' : '  ease-in-out duration-500 fixed left-[-100%] '}>
       <img className=" h-20 w-23" src={logo} alt="" />
         <li className='p-4'><a
-          className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-yellow-500"
+          className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600"
           onClick={() => scrollToSection("about_us")}
           href="#about_us"
         >
           ABOUT US
         </a></li>
         <li className='p-4'><a
-          className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-yellow-500"
+          className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600"
           onClick={() => scrollToSection("projects")}
           href="#projects"
         >
           OUR PROJECTS
         </a></li>
         <li className='p-4'> <a
-          className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-yellow-500"
+          className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600"
           onClick={() => scrollToSection("contact")}
           href="#contact"
         >

@@ -10,8 +10,10 @@ import "./app.css";
 function App() {
   return ( 
     <>
+    <nav>
       <Navbar />
-      
+      </nav>
+
       </>
   );
 }
