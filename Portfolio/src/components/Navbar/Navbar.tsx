@@ -24,7 +24,7 @@ const Navbar = () => {
     internalLinks.forEach((link) => {
       link.addEventListener('click', (e) => {
         e.preventDefault();
-        const targetId = link.getAttribute('href')?.slice(1); // Use optional chaining
+        const targetId = link.getAttribute('href')?.slice(1); 
         if (targetId) {
           scrollToSection(targetId);
         }
