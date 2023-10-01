@@ -11,6 +11,10 @@ function App() {
   return ( 
     <>
       <Navbar />
+      <Hello />
+      <About />
+      <Contact />
+      <footer />
       </>
   );
 }
