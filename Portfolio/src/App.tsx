@@ -10,16 +10,10 @@ import "./app.css";
 function App() {
   return ( 
     <>
-    <nav>
       <Navbar />
-<<<<<<< Updated upstream
-      </nav>
-
-=======
-      
+       
       <Footer />
->>>>>>> Stashed changes
-      </>
+    </>
   );
 }
 
