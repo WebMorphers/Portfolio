@@ -8,11 +8,11 @@ import Links from "./components/Links/Links";
 import "./app.css";
 
 function App() {
-  return ( 
+  return (
     <>
       <Navbar />
-
-      </>
+      <Footer />
+    </>
   );
 }
 
