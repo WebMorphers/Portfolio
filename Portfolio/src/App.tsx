@@ -11,12 +11,6 @@ function App() {
   return ( 
     <>
       <Navbar />
-<<<<<<< Updated upstream
-
-=======
-      
-      <Footer />
->>>>>>> Stashed changes
       </>
   );
 }
