@@ -33,7 +33,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className='z-50 sticky top-0 flex justify-between items-center h-24 max-w-full mx-auto px-10 text-white bg-transparent	backdrop-blur-md'>
+    <div className='z-50 my-0	mx-auto sticky top-0 flex justify-between items-center h-24 max-w-full mx-auto px-10 text-white bg-transparent	backdrop-blur-md'>
        <img className=" h-20 w-23" src={logo} alt="" />
       <ul className='hidden md:flex'>
         <li className='p-4'><a
@@ -55,7 +55,7 @@ const Navbar = () => {
       </ul>
       <ul className='hidden md:flex'>
       <li className='p-4'> <a
-          className="no-underline mx-4 cursor-pointer font-thin text-gray-900 hover:text-orange-600"
+          className="no-underline mx-4 cursor-pointer font-normal	text-gray-900 hover:text-orange-600"
           onClick={() => scrollToSection("contact")}
           href="#contact"
         >
