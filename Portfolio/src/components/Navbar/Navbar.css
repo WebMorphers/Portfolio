@@ -1,45 +1,5 @@
-.fc {
  
-  height: 5rem;
-  width: 100vw;
-  margin: 0 auto;
-  padding: 1rem 2rem;
-  display: flex;
-  flex-direction: row; 
-  align-items: center;
-  justify-content: space-between;
-  position: sticky;
-  position: fixed;  
-  top: 0;  
-  z-index: 1000;
-  transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(.4,0,.2,1);
-  transition-duration: .15s;
-  background-color: rgba(79,70,229,.1);
-  backdrop-filter: blur(10px);
-  padding: 0 4rem;
-}
 
 
  
-.contact{
-    cursor: pointer;
-    font-weight:400;
-    color: inherit;
-}
  
-.contact:hover{
-    color:#e7921b ;
-}
-.links{ 
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    justify-content: space-between;
-    font-size:larger ;  
-} 
-.logo{
-object-fit: cover;
-height: 5rem;
-width: 7rem;
-}

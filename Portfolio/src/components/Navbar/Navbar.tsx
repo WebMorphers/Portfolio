@@ -33,7 +33,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className='flex justify-between items-center h-24 max-w-full mx-auto px-10 text-white bg-[rgba(79,70,229,.1)] backdrop-blur-10 fc'>
+    <div className='flex justify-between items-center h-24 max-w-full mx-auto px-10 text-white bg-[rgba(70,200,229,0.1)] backdrop-blur-10'>
        <img className=" h-20 w-23" src={logo} alt="" />
       <ul className='hidden md:flex'>
         <li className='p-4'><a
