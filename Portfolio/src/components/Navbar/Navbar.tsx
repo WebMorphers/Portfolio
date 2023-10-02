@@ -33,7 +33,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className='flex w-full  top-0 fixed justify-between items-center h-24 mx-auto px-4 text-white backdrop-blur-md bg-orange-600 bg-opacity-10	'>
+    <div className='flex w-full top-0 fixed justify-between items-center h-24 mx-auto px-4 text-white backdrop-blur-md bg-orange-600 bg-opacity-10	'>
        <img className=" h-20 w-23" src={logo} alt="" />
       <ul className='hidden md:flex'>
         <li className='p-4'><a
@@ -64,7 +64,7 @@ const Navbar = () => {
       <div onClick={chang} className='block md:hidden'>
           {nav ? <AiOutlineClose size={20} color={"black"} /> : <AiOutlineMenu size={20} color={"black"} />}
       </div>
-      <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-amber-700 ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
+      <ul className={nav ? ' fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-amber-700 ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
       <img className=" h-20 w-23" src={logo} alt="" />
         <li className='p-4 '><a
           className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600"

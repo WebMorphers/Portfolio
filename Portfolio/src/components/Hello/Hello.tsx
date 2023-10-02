@@ -6,7 +6,7 @@ const Hello = () => {
       <div className='text-center mx-auto sm:pt-24 lg:pt-32'>
         <p className='font-bold mb-4 sm:text-5xl lg:text-6xl'> 
           Hello We Are<br />
-          <span className="text-7xl sm:text-6xl text-yellow-500 font-serif uppercase animate-pulse mt-5">
+          <span className="text-7xl sm:text-6xl text-yellow-500 font-serif uppercase mt-5">
             WebMorphers
           </span><br />
           A Team Of Web Developers
