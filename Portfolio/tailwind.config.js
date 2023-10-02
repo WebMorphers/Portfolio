@@ -8,7 +8,7 @@ export default {
       'sm': '350px',
       // => @media (min-width: 640px) { ... }
 
-      'md': '862px',
+      'md': '641px',
       // => @media (min-width: 768px) { ... }
 
       'lg': '1170px',
