@@ -33,11 +33,11 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white '>
+    <div className='flex w-full  top-0 fixed justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white backdrop-blur-md bg-orange-600 bg-opacity-10	'>
        <img className=" h-20 w-23" src={logo} alt="" />
       <ul className='hidden md:flex'>
         <li className='p-4'><a
-          className="no-underline mx-4 cursor-pointer font-thin text-gray-900 hover:text-orange-600"
+          className="no-underline mx-4 cursor-pointer font-light	 text-gray-900 hover:text-orange-600"
           onClick={() => scrollToSection("about_us")}
           href="#about_us"
         >

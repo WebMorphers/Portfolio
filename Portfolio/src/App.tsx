@@ -11,6 +11,8 @@ function App() {
   return (
     <>
       <Navbar />
+      <Hello />
+
     </>
   );
 }
