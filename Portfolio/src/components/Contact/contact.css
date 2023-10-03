@@ -14,11 +14,10 @@
 
  .pconty{
     margin-bottom: 7%;
-    font-size: 4rem; 
+    
  }
    .pcont{
-    font-family: 'Kanit', sans-serif;
-    font-size: 1.5rem;
+    font-family: 'Kanit', sans-serif; 
     line-height: 1.8; 
     word-spacing: 2px;
     padding: 0 12%;

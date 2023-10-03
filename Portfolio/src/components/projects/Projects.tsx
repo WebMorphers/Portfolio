@@ -4,9 +4,9 @@ import "./Projects.css";
 const Projects = () => {
   return (
     <div className="lg:py-[10%]   bg-gradient-to-b from-[#3085C3] to-[#5CD2E6] container mx-auto pt-20 flex items-center justify-center flex-col min-w-full">
-      <h1 className="text-[60px]"   >Projects</h1>
+      <h1 className="xs:text-[50px] sm:text-[60px] md:text-[66px]" >Projects</h1>
       <div className="mt-4" id="te">
-        <p className="text-lg lg:text-2xl ">
+        <p className="xs:text-[18px] sm:text-[20px] md:text-[20px]  ">
           With a wealth of experience in web development, we are a team of
           dedicated creators driven by innovation and technical excellence. Our
           diverse portfolio includes successful collaborations with a wide range
