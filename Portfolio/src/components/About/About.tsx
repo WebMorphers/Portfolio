@@ -38,8 +38,11 @@ const About = () => {
           </div>
         </div>
         <div className="md:w-[30%] md">
-          <div className="flex items-center justify-center ">
-            <img src={logo} alt="" className="max-w-full" />
+          <div className="relative flex items-center justify-center ">
+            <img src={logo} alt="" className="relative max-w-full" />
+            <div className="absolute top-0 flex justify-center items-center w-72 h-72 -left-5 opacity-50 blur-xl mix-blend-multiply rounded-full bg-orange-400 animate-blob"></div>
+            <div className="absolute top-0 flex justify-center items-center w-72 h-72 -right-10 opacity-50 blur-xl animation-delay-2000  mix-blend-multiply rounded-full bg-pink-400 animate-blob"></div>
+            <div className="absolute top-0 flex justify-center items-center w-72 h-72 -left-20 opacity-50 blur-xl animation-delay-4000 mix-blend-multiply bottom-4 rounded-full bg-yellow-400 animate-blob"></div>
           </div>
         </div>
       </div>
