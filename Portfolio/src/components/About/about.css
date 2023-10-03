@@ -1,47 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Kanit:ital,wght@0,200;0,300;0,400;1,200&display=swap');
 
-.containerr{
-    display: flex; 
-    flex-direction: row; 
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin: 0 3rem;
-}
-
-.text{
+#text{
     text-align: center;
     font-family: 'Kanit', sans-serif;
     line-height: 1.8; 
     word-spacing: 2px;
 }
-  
-.titre{
-    text-align: center;
-    font-size: 3rem;
+ 
+#h1p{ 
+ 
+    font-family: 'Roboto Slab', serif; 
 
-}
-.pp{
-    max-width: 100%;
-    text-align: center;
-}
-.h1p{ 
-
-    font-size: 1.2rem;
-    font-family: 'Roboto Slab', serif;
-    flex: 1 1;
-
-}
-.img{
-    display: flex;
-    align-items: center;
-    flex: 1 1;
-    justify-content: center;
-
-
-}
-.highlight{
-    font-weight: 600;
-    color: #ec6e06;
 }

@@ -31,8 +31,10 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="flex w-full  top-0 fixed justify-between items-center h-24 mx-auto px-4 text-white backdrop-blur-md bg-orange-600 bg-opacity-10	">
-      <img className=" h-20 w-23" src={logo} alt="" />
+    <div id="nav" className="flex w-full  top-0 fixed justify-between items-center h-24 mx-auto px-4 text-white backdrop-blur-md bg-orange-600 bg-opacity-10	">
+      <a href="#" onClick={() => scrollToSection("hello")}>
+          <img className="h-20 w-23" src={logo} alt="" />
+        </a>
       <ul className="hidden md:flex">
         <li className="p-4">
           <a
@@ -79,7 +81,9 @@ const Navbar = () => {
             : "ease-in-out duration-500 fixed left-[-100%]"
         }
       >
-        <img className=" h-20 w-23" src={logo} alt="" />
+         <a href="#" onClick={() => scrollToSection("hello")}>
+          <img className="h-20 w-23" src={logo} alt="" />
+        </a>
         <li className="p-4 ">
           <a
             className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600"

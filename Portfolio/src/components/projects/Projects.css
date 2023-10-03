@@ -1,7 +1,12 @@
-.ontainer{
-    padding-top: 5rem;
-    display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Kanit:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+
+
+#te{
+    font-family: 'Kanit', sans-serif;
+    line-height: 1.8; 
+    word-spacing: 4px;
+    padding: 0 12%;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    text-align: center;
 }

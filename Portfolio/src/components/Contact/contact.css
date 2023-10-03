@@ -1,70 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Kanit:ital,wght@0,200;0,300;0,400;1,200&display=swap');
-button {
-    appearance: button;
-    background-color: #f06654;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: .8px;
-    line-height: 20px;
-    margin: 0;
-    outline: none;
-    overflow: visible;
-    padding: 13px 19px;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transform: translateZ(0);
-    transition: filter .2s;
-    user-select: none;
-    -webkit-user-select: none;
-    vertical-align: middle;
-    white-space: nowrap; 
-    margin: 5%;
-    align-items: center;
-    
-   }
-   
-   button:after {
-    background-clip: padding-box;
-    background-color: #e64c38;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    bottom: -4px;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-   }
-   
-   button:main, button:focus {
-    user-select: auto;
-   }
-   
-   button:hover:not(:disabled) {
-    filter: brightness(1.1);
-   }
-   
-   button:disabled {
-    cursor: auto;
-   }
-   
-   button:active:after {
-    border-width: 0 0 0px;
-   }
-   
-   button:active {
-    padding-bottom: 10px;
-   }
+
+ 
 
    .contt{
     padding-top: 10%;
@@ -78,9 +14,7 @@ button {
 
  .pconty{
     margin-bottom: 7%;
-    font-size: 4rem;
-
-
+    font-size: 4rem; 
  }
    .pcont{
     font-family: 'Kanit', sans-serif;
