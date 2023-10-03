@@ -4,13 +4,16 @@ import logo from "../../assets/nobg_logo.png";
 const About = () => {
   return (
     <div className="container w-full mx-auto px-[12%] py-[11%] min-w-full bg-gradient-to-b from-[#F4E869] to-amber-300">
-      <div className="flex md:flex-row md:items-center md:justify-center md:space-x-3 w-full  xs:flex-col sm:flex-col">
-        <div className="md:w-[70%] w-full">
-          <h1 className="text-3xl font-bold text-center mb-6" id="h1p">
+      <div className="relative flex md:flex-row md:items-center md:justify-center md:space-x-3 w-full  xs:flex-col sm:flex-col">
+        <div className="relative md:w-[70%] w-full">
+        <div className="absolute top-0 flex justify-center items-center w-72 h-72 left-5 opacity-50 blur-3xl mix-blend-multiply rounded-full bg-orange-300 animate-blob"></div>
+        <div className="absolute top-0 flex justify-center items-center w-72 h-72 right-20 opacity-50 blur-3xl animation-delay-2000  mix-blend-multiply rounded-full bg-pink-300 animate-blob"></div>
+        <div className="absolute top-0 flex justify-center items-center w-72 h-72 left-20 opacity-50 blur-3xl animation-delay-4000 mix-blend-multiply bottom-4 rounded-full bg-yellow-300 animate-blob"></div>           
+          <h1 className="relative text-3xl font-bold text-center mb-6" id="h1p">
             About Web Morphers
           </h1>
-          <div id="text" className=" text-center text-lg font-serif leading-7 space-y-4">
-            <p>
+          <div  id="text" className="relative text-center text-lg font-serif leading-7 space-y-4">
+            <p className="relative">
               <span className="font-bold text-orange-500">Web Morphers</span>, a
               budding team of{" "}
               <span className="font-bold text-orange-500">ReactJS experts</span>
