@@ -10,10 +10,10 @@ export default {
       keyframes:{
         blob:{
           "0%":{
-            transform: "scale(1) translate(0px, 0px)"
+            transform: "scale(1)  translate(0px, 0px)"
           },
           "33%":{
-            transform: "scale(1.3) translate(30px, -50px)"
+            transform: "scale(1.3) sd:scale(1.2) translate(30px, -50px) "
           },
           "66%":{
             transform: "scale(0.8) translate(-20px, 20px)"
