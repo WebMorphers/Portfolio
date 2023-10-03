@@ -6,10 +6,10 @@ const Footer = () => {
     <div className='bg-black text-white py-4 px-6 md:px-12 lg:px-24 flex flex-col md:flex-row items-center justify-between'>
       <div className='flex gap-8 mb-4 md:mb-0'>
         <a target="_blank" href="https://www.linkedin.com/company/webmorphers/about/" className='text-xl'>
-          <i className="fab fa-linkedin-in" style={{ color: "#ffffff", width: "17px", height: "17px" }}></i>
+          <i className="fab fa-linkedin-in fa-beat" style={{ color: "#ffffff", width: "17px", height: "17px" }}></i>
         </a>
         <a target="_blank" href="https://twitter.com/WebMorphers" className='text-xl'>
-          <i className="fa-brands fa-x-twitter" style={{ color: "#ffffff", width: "17px", height: "17px" }}></i>
+          <i className="fa-brands fa-x-twitter fa-beat" style={{ color: "#ffffff", width: "17px", height: "17px" }}></i>
         </a>
       </div>
       <div className='text-xl text-center md:text-left mb-4 md:mb-0'>
