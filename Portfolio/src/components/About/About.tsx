@@ -3,9 +3,9 @@ import logo from "../../assets/nobg_logo.png";
 
 const About = () => {
   return (
-    <div className="container mx-auto py-[11%] min-w-full bg-gradient-to-b from-[#F4E869] to-[#3085C3]">
-      <div className="flex md:flex-row md:items-center md:justify-center md:space-x-3   xs:flex-col sm:flex-col">
-        <div className="md:w-1/2 ">
+    <div className="container w-full mx-auto px-[12%] py-[11%] min-w-full bg-gradient-to-b from-[#F4E869] to-amber-300">
+      <div className="flex md:flex-row md:items-center md:justify-center md:space-x-3 w-full  xs:flex-col sm:flex-col">
+        <div className="md:w-[70%] w-full">
           <h1 className="text-3xl font-bold text-center mb-6" id="h1p">
             About Web Morphers
           </h1>

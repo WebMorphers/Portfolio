@@ -5,7 +5,7 @@ const contact = () => {
   const email = "WebMorphers@gmail.com";
 
   return (
-    <div className="contt bg-gradient-to-b from-[#5CD2E6] to-[#A084DC]">
+    <div className="contt bg-gradient-to-b from-yellow-400 via-red-400 to-red-500">
       <h1 className="pconty xs:text-[50px] sm:text-[60px] md:text-[66px]">CONTACT</h1>
       <p className="pcont xs:text-[18px] sm:text-[20px] md:text-[20px] ">
         We are always on the lookout for new challenges and opportunities to

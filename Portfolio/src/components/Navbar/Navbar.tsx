@@ -31,7 +31,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div id="nav" className="flex w-full  top-0 fixed justify-between items-center h-24 mx-auto px-4 text-white backdrop-blur-md bg-orange-600 bg-opacity-10	">
+    <div id="nav" className="flex w-full  top-0 fixed justify-between items-center h-24 mx-auto px-7 text-white backdrop-blur-md bg-orange-600 bg-opacity-10	">
       <a href="#" onClick={() => scrollToSection("hello")}>
           <img className="h-20 w-23" src={logo} alt="" />
         </a>
