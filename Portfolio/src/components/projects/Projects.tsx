@@ -1,5 +1,6 @@
  import "./Projects.css";
 
+
 const Projects = () => {
   return (
     <div className="lg:py-[10%]   bg-gradient-to-b from-amber-300 via-amber-400 to-yellow-400 container mx-auto pt-20 flex items-center justify-center flex-col min-w-full">

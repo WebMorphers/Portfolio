@@ -31,14 +31,14 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div id="nav" className="flex w-full  top-0 fixed justify-between items-center h-24 mx-auto px-7 text-white backdrop-blur-md bg-orange-600 bg-opacity-10	">
+    <div id="nav" className="flex w-full  top-0 fixed justify-between items-center h-24 mx-auto px-4 text-white backdrop-blur-md bg-orange-600 bg-opacity-10	">
       <a href="#" onClick={() => scrollToSection("hello")}>
           <img className="h-20 w-23" src={logo} alt="" />
         </a>
       <ul className="hidden md:flex">
         <li className="p-4">
           <a
-            className="no-underline mx-4 cursor-pointer font-light	 text-gray-900 hover:text-orange-600"
+            className="no-underline mx-4 cursor-pointer font-light text-gray-900 hover:text-orange-600"
             onClick={() => scrollToSection("about_us")}
             href="#about_us"
           >
