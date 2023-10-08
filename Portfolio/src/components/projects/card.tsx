@@ -16,7 +16,7 @@ import {
   export default function CardDefault(props: CardProps) {
     const { title, description, imgSrc, link } = props;
     return (
-      <Card className="mt-6 w-96 bg-inherit p-6 rounded-2xl  hover:bg-yellow-400 shadow-2xl">
+      <Card className="mt-6 lg:w-96 md:w-96  bg-inherit p-6 rounded-2xl  hover:bg-yellow-400 shadow-2xl mx-5">
         <CardHeader color="blue-gray" className=" h-min">
           <img src={imgSrc} alt="card-image" />  
         </CardHeader>
