@@ -13,7 +13,7 @@ const Navbar = () => {
     if (section) {
       window.scrollTo({
         top: section.offsetTop,
-        behavior: "smooth",
+        behavior: "smooth",  
       });
     }
   };
