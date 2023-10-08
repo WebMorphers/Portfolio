@@ -27,7 +27,7 @@ import {
           <Typography>{description}</Typography>
         </CardBody>
         <CardFooter className="pt-0">
-        <button className="bg-[#F48B29] p-2 shadow-2xl rounded-lg hover:bg-[#f8b475] "><a  target="_blank" href={link}>Live Preview</a></button>
+        <button className="bg-[#4CAF4F] p-2 shadow-2xl rounded-lg hover:bg-[#64c967] "><a  target="_blank" href={link}>Live Preview</a></button>
 
         </CardFooter>
       </Card>
