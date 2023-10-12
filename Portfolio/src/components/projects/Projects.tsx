@@ -51,7 +51,7 @@ const Projects = () => {
                 <h1 className="text-2xl font-semibold">{project.title}</h1>
                 <h2 className="text-xl ">{project.subtitle}</h2>
                 <p className="text-sm opacity-80 ">{project.description}</p>
-                <a className="px-2 py-3 bg-gray-400 rounded w-max hover:bg-gray-500 " href={project.link}>Live preview</a>
+                <a className="px-2 py-3 bg-[#EE9322] rounded w-max hover:bg-[#D83F31] " href={project.link}>Live preview</a>
               </div>
             </div>
           ))}
