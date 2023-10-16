@@ -29,7 +29,7 @@ const Projects = () => {
         className="mt-4 line-height-18 word-spacing-4px px-[12%] align-center justify-center text-center"
         id="te"
       >
-        <p className="xs:text-[18px] sm:text-[20px] md:text-[20px]">
+        <p className="xs:text-[18px] sm:text-[20px] md:text-[20px] te">
           With a wealth of experience in web development, we are a team of
           dedicated creators driven by innovation and technical excellence. Our
           diverse portfolio includes successful collaborations with a wide range
