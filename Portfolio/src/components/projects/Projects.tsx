@@ -1,6 +1,7 @@
 import "./Projects.css";
 import Nexcent from "../../assets/nexcent.png";
 import Notapark from "../../assets/notapark.png";
+import ComptoirSucre from "../../assets/comptoir-sucre.png"
 
 const projects = [
   {
@@ -18,6 +19,14 @@ const projects = [
     description:
       "Responsive Landing Page Design | Website Home Page Design | Agency Website UI Design",
     link: "https://notapark.vercel.app/",
+  },
+  {
+    img: ComptoirSucre,
+    title: "comptoir sucre",
+    subtitle: "Brownies/cookies Landing Page",
+    description:
+      "Responsive Landing Page Design | Website Home Page Design | Agency Website UI Design",
+    link: "https://comptoir-sucre.vercel.app/",
   },
 ];
 
@@ -42,9 +51,9 @@ const Projects = () => {
         </p>
       </div>
       <div>
-        <div className="grid md:grid-cols-2 xl:gap-20 gap-20 md:gap-10 md:m-16 p-8 lg:m-24 m-8 ">
+        <div className="flex flex-wrap justify-center gap-20 md:gap-10 md:m-16 p-8 lg:m-24 m-8 items-center">
           {projects.map((project) => (
-            <div className="flex flex-col px-4 md:px-10 py-3 rounded-xl shadow-2xl items-center gap-5 hover:bg-yellow-400 cursor-pointer">
+            <div className="flex flex-col px-4 md:px-10 py-3 rounded-xl shadow-2xl items-center gap-5  max-w-sm hover:bg-yellow-400 cursor-pointer">
               <div>
                 <img src={project.img} alt="" />
               </div>
